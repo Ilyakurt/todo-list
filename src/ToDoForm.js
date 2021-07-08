@@ -18,7 +18,7 @@ function ToDoForm({ addTask }) {
             handleSubmit(e)
         }
     }
-    
+    //() => handleSubmit()
     return (
         <form onSubmit={handleSubmit}>
             <input 
